@@ -37,21 +37,16 @@
 .highlight-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px}
 .highlight-heading h2{font-size:27px}
 .highlight-heading>a{font-size:12px;white-space:nowrap}
-.stats-table-wrap{overflow:hidden}
-.research-stats{width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px}
-.research-stats th,.research-stats td{padding:10px 0;border-bottom:1px solid var(--line);vertical-align:middle}
-.research-stats thead th{color:var(--muted);font-size:11px;font-weight:400;text-align:center}
-.research-stats thead th:first-child{width:52%;text-align:left}
-.research-stats tbody th{text-align:left;font-weight:400}
-.research-stats tbody a{color:inherit;text-decoration:none}
-.research-stats tbody a:hover{text-decoration:underline}
-.research-stats td{text-align:center;font:400 17px/1.3 var(--sans);font-variant-numeric:tabular-nums;color:var(--ink)}
-.research-stats .stats-total th,.research-stats .stats-total td{font-weight:650}
-.research-stats .stats-total td{font-size:20px}
+.research-stats{width:100%;border-collapse:collapse;table-layout:fixed;text-align:center}
+.research-stats th{width:25%;padding:8px 0;color:var(--muted);font:500 12px/1.5 var(--sans)}
+.research-stats th a{color:inherit;text-decoration:none}
+.research-stats th a:hover{text-decoration:underline}
+.research-stats td{padding:2px 0 13px;border-bottom:1px solid var(--line);font:650 29px/1.3 var(--sans);font-variant-numeric:tabular-nums;color:var(--ink)}
 .stats-note{font-size:10px;line-height:1.6;color:var(--muted);margin:9px 0 0}
-@media(max-width:700px){.research-stats thead th:first-child{width:40%}.research-stats thead th{font-size:10px;white-space:nowrap}.research-stats th,.research-stats td{padding:9px 0}.research-stats td{font-size:16px}.research-stats .stats-total td{font-size:19px}.highlight-heading h2{font-size:24px}}
+@media(max-width:700px){.research-stats th{font-size:11px}.research-stats td{font-size:25px}.highlight-heading h2{font-size:24px}}
 .publication-badges{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
 .badge{display:inline-flex;align-items:center;font:650 11px/1.4 var(--sans);padding:4px 8px;border:1px solid transparent;border-radius:4px;text-decoration:none;letter-spacing:.015em}
+.badge.esci{background:#e6eeec;color:#315c54;border-color:#c2d5cf}
 .badge.ssci{background:#e9e3f0;color:#523b73;border-color:#d1c3e0}
 .badge.ccf-b{background:#e0eaf5;color:#294e7b;border-color:#becfe4}
 .badge.ccf-c{background:#f1e6d7;color:#75512a;border-color:#d9c4a8}
